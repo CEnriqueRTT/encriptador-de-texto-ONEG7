@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.png">
+        <title>Encriptador de texto® ONEG7</title>
+        <!-- Referencia al archivo CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" type="text/css"/>
+        <link rel="stylesheet" href="./assets/css/style.css" type="text/css"/>
+        <!-- Sincroniza iconos en línea desde Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="container_header">
+                <div class="header">
+                    <a href="https://app.aluracursos.com/user/ing-ike21" target="_blank"> 
+                        <img class="logo" src="./assets/img/alura.svg">
+                    </a>
+                </div>  
+            </div>
+        </header>
+        <main>
+            <article class="container">
+                <section class="left" id="left">
+                    <textarea class="inputtextarea" id="textoInput" placeholder="Ingrese el texto aquí" autofocus></textarea>
+                    <div class="content_botones">
+                        <span class="info">
+                            <img src="./assets/img/!.svg" alt="advertencia" />
+                            Solo letras minúsculas y sin acentos
+                        </span>
+                        <div class="botones">
+                            <button id="button_encriptar" class="button_encriptar"><img width="25" height="25" src="./assets/img/encrypt.png">Encriptar</button>
+                            <button id="button_desencriptar" class="button_desencriptar"><img width="25" height="25" src="./assets/img/decrypt.png">Desencriptar</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="right" id="rigth">
+                    <img id="munheco" class="munheco" src="./assets/img/munheco.svg" alt="Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar.">
+                    <textarea id="textoFinal" class="textoFinal" placeholder="Ningún mensaje fue encontrado"></textarea>
+                    <p id="textoInfo" class="info">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    <button class="button_copiar bn_ocultar" id="button_copiar"><img width="25" height="25" src="./assets/img/copy.png">Copiar</button>
+                </section>
+            </article>
+        </main>
+        <footer class="footer">
+            <div class="footer-col">
+                <h4>&copy; Developed by Enrique Torres, 2024.</h4>
+                <div class="social-links">
+                    <a href="https://wa.link/cytxhr" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/carlos-enrique-torres-ingsis/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/CEnriqueRTT" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.tiktok.com/@ing.sistemas21" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </footer>
+        <!-- Referencia al archivo JS -->
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
